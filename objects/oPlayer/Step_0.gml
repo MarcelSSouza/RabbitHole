@@ -2,6 +2,7 @@
 var vel = 4;
 var movimento = 0;
 
+
 // Define the boundaries of the room
 var leftBoundary = 0;
 var rightBoundary = room_width;
@@ -33,7 +34,7 @@ if (!keyboard_check(vk_anykey)) {
 }
 
 
-if (gamepad_is_connected(0)) {
+
 
 if (gamepad_button_check(0,gp_padr) && x + vel < rightBoundary) {
     x += vel;
@@ -58,8 +59,22 @@ if (gamepad_button_check(0,gp_padd) && y + vel < bottomBoundary) {
 
 sprite_index = sprites[movimento];
 
-	
 
+
+if(instance_number(oCoin) == 0){
+
+audio_stop_all()
+room_goto_next()
+
+
+
+}
+
+if(keyboard_check(vk_escape)){
+room_goto(Main)
+}
+if(keyboard_check(vk_enter)){
+room_goto_next()
 }
 
 sprite_index = sprites[movimento];

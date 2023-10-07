@@ -14,3 +14,4 @@ audio_play_sound(MainSong,0,true)
 alarm[0] = 1800
 
 
+coins=0
