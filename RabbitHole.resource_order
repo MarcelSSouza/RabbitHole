@@ -1,0 +1,24 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Objetos","order":3,"path":"folders/Objetos.yy",},
+    {"name":"Sounds","order":4,"path":"folders/Sounds.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"sBack","order":5,"path":"sprites/sBack/sBack.yy",},
+    {"name":"sLeft","order":3,"path":"sprites/sLeft/sLeft.yy",},
+    {"name":"Room3","order":2,"path":"rooms/Room3/Room3.yy",},
+    {"name":"Room4","order":3,"path":"rooms/Room4/Room4.yy",},
+    {"name":"Sprite11","order":9,"path":"sprites/Sprite11/Sprite11.yy",},
+    {"name":"sRight","order":4,"path":"sprites/sRight/sRight.yy",},
+    {"name":"oEnemy","order":1,"path":"objects/oEnemy/oEnemy.yy",},
+    {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Object4","order":3,"path":"objects/Object4/Object4.yy",},
+    {"name":"fnt_font","order":5,"path":"fonts/fnt_font/fnt_font.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"Sprite9","order":7,"path":"sprites/Sprite9/Sprite9.yy",},
+    {"name":"Room5","order":4,"path":"rooms/Room5/Room5.yy",},
+    {"name":"oEnemyRun","order":2,"path":"objects/oEnemyRun/oEnemyRun.yy",},
+    {"name":"sFront","order":6,"path":"sprites/sFront/sFront.yy",},
+  ],
+}
