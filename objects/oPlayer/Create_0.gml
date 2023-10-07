@@ -8,8 +8,9 @@ sprites[1] = sLeft
 sprites[2] = sRight
 sprites[3] = sBack
 sprites[4] = sFront
-audio_play_sound(Sound1,0,true)
 
-alarm[0] = 3600
+audio_play_sound(MainSong,0,true)
+
+alarm[0] = 1800
 
 

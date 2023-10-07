@@ -1,5 +1,4 @@
-// You can write your code in this editor
-
+// Step Event of your player object
 var vel = 4;
 var movimento = 0;
 
@@ -31,6 +30,36 @@ if (keyboard_check(vk_down) && y + vel < bottomBoundary) {
 
 if (!keyboard_check(vk_anykey)) {
     movimento = 0;
+}
+
+
+if (gamepad_is_connected(0)) {
+
+if (gamepad_button_check(0,gp_padr) && x + vel < rightBoundary) {
+    x += vel;
+    movimento = 2;
+}
+
+if (gamepad_button_check(0,gp_padl) && x - vel > leftBoundary) {
+    x -= vel;
+    movimento = 1;
+}
+
+if (gamepad_button_check(0,gp_padu) && y - vel > topBoundary) {
+    y -= vel;
+    movimento = 3;
+}
+
+if (gamepad_button_check(0,gp_padd) && y + vel < bottomBoundary) {
+    y += vel;
+    movimento = 4;
+	
+}
+
+sprite_index = sprites[movimento];
+
+	
+
 }
 
 sprite_index = sprites[movimento];
