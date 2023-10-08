@@ -13,6 +13,7 @@
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cenas","folderPath":"folders/Cenas.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objetos","folderPath":"folders/Objetos.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
   ],
@@ -32,6 +33,8 @@
     {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},},
     {"id":{"name":"Sprite10","path":"sprites/Sprite10/Sprite10.yy",},},
     {"id":{"name":"sRight","path":"sprites/sRight/sRight.yy",},},
+    {"id":{"name":"snd_coin","path":"sounds/snd_coin/snd_coin.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},},
     {"id":{"name":"Main3","path":"rooms/Main3/Main3.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},

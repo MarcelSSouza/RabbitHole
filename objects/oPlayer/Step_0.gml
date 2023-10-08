@@ -1,13 +1,13 @@
 // Step Event of your player object
-var vel = 4;
-var movimento = 0;
+vel = 3;
+movimento = 0;
 
 
 // Define the boundaries of the room
-var leftBoundary = 0;
-var rightBoundary = room_width;
-var topBoundary = 0;
-var bottomBoundary = room_height;
+leftBoundary = 0;
+rightBoundary = room_width;
+topBoundary = 0;
+bottomBoundary = room_height;
 
 if (keyboard_check(vk_right) && x + vel < rightBoundary) {
     x += vel;
@@ -63,7 +63,7 @@ sprite_index = sprites[movimento];
 
 if(instance_number(oCoin) == 0){
 
-audio_stop_all()
+audio_stop_sound(MainSong)
 room_goto_next()
 
 

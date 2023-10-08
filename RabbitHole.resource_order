@@ -1,7 +1,8 @@
 {
   "FolderOrderSettings": [
-    {"name":"Objetos","order":3,"path":"folders/Objetos.yy",},
-    {"name":"Sounds","order":4,"path":"folders/Sounds.yy",},
+    {"name":"Objetos","order":2,"path":"folders/Objetos.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Sounds","order":5,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
@@ -13,13 +14,14 @@
     {"name":"Sprite11","order":7,"path":"sprites/Sprite11/Sprite11.yy",},
     {"name":"Sprite10","order":10,"path":"sprites/Sprite10/Sprite10.yy",},
     {"name":"sRight","order":3,"path":"sprites/sRight/sRight.yy",},
+    {"name":"snd_coin","order":1,"path":"sounds/snd_coin/snd_coin.yy",},
     {"name":"Sprite13","order":11,"path":"sprites/Sprite13/Sprite13.yy",},
     {"name":"Main3","order":4,"path":"rooms/Main3/Main3.yy",},
     {"name":"oEnemy","order":1,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"oButtonStart","order":5,"path":"objects/oButtonStart/oButtonStart.yy",},
     {"name":"EndMessage","order":3,"path":"objects/EndMessage/EndMessage.yy",},
-    {"name":"fnt_font","order":5,"path":"fonts/fnt_font/fnt_font.yy",},
+    {"name":"fnt_font","order":3,"path":"fonts/fnt_font/fnt_font.yy",},
     {"name":"Room2","order":3,"path":"rooms/Room2/Room2.yy",},
     {"name":"Sprite9","order":6,"path":"sprites/Sprite9/Sprite9.yy",},
     {"name":"RoomFinal","order":8,"path":"rooms/RoomFinal/RoomFinal.yy",},
