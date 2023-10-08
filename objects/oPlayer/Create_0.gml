@@ -9,7 +9,7 @@ sprites[3] = sBack
 sprites[4] = sFront
 
 audio_play_sound(MainSong,0, false)
-alarm[0] = 1800
-
+alarm[0] = 500
+enemy= instance_number(oEnemyGun)
 
 coins=0

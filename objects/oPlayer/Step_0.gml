@@ -2,7 +2,7 @@
 vel = 3;
 movimento = 0;
 
-
+direction= point_direction(x,y,oPlayer.x,oPlayer.y)
 // Define the boundaries of the room
 leftBoundary = 0;
 rightBoundary = room_width;
@@ -60,11 +60,12 @@ if (gamepad_button_check(0,gp_padd) && y + vel < bottomBoundary) {
 sprite_index = sprites[movimento];
 
 
-
+//ATENCAO AQUI
 if(instance_number(oCoin) == 0){
 
-audio_stop_sound(MainSong)
-room_goto_next()
+//audio_stop_sound(MainSong)
+//room_goto_next()
+
 
 
 
@@ -73,8 +74,14 @@ room_goto_next()
 if(keyboard_check(vk_escape)){
 room_goto(Main)
 }
-if(keyboard_check(vk_enter)){
-room_goto_next()
-}
+
 
 sprite_index = sprites[movimento];
+
+
+
+if (mouse_check_button_released(mb_left) and instance_exists(oGun)){
+with(instance_create_layer(x,y,"Instances", oBullet)){
+direction= oGun.image_angle
+speed=8
+}}
