@@ -2,4 +2,4 @@
 // Você pode escrever seu código neste editor
 
 
-coins +=1
+coins -=1

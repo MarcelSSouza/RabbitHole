@@ -28,6 +28,7 @@
     {"name":"Sprite13","order":11,"path":"sprites/Sprite13/Sprite13.yy",},
     {"name":"Main3","order":4,"path":"rooms/Main3/Main3.yy",},
     {"name":"Sprite16","order":15,"path":"sprites/Sprite16/Sprite16.yy",},
+    {"name":"sDead","order":18,"path":"sprites/sDead/sDead.yy",},
     {"name":"oEnemy","order":1,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"Sprite18","order":17,"path":"sprites/Sprite18/Sprite18.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
