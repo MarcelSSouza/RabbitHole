@@ -119,8 +119,8 @@
   "lineHeight": 36,
   "maintainGms1Font": false,
   "parent": {
-    "name": "RabbitHole",
-    "path": "RabbitHole.yyp",
+    "name": "Fonts",
+    "path": "folders/Fonts.yy",
   },
   "pointRounding": 0,
   "ranges": [

@@ -12,6 +12,7 @@
   "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cenas","folderPath":"folders/Cenas.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objetos","folderPath":"folders/Objetos.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
@@ -40,6 +41,7 @@
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"Main9","path":"rooms/Main9/Main9.yy",},},
     {"id":{"name":"oEnemyGun","path":"objects/oEnemyGun/oEnemyGun.yy",},},
+    {"id":{"name":"sEndMessage","path":"sprites/sEndMessage/sEndMessage.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
     {"id":{"name":"sControls","path":"sprites/sControls/sControls.yy",},},
     {"id":{"name":"Main5","path":"rooms/Main5/Main5.yy",},},
@@ -52,6 +54,7 @@
     {"id":{"name":"Main3","path":"rooms/Main3/Main3.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"id":{"name":"sDead","path":"sprites/sDead/sDead.yy",},},
+    {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"RoomControls","path":"rooms/RoomControls/RoomControls.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},

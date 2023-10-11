@@ -33,8 +33,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "Sprite19",
-    "path": "sprites/Sprite19/Sprite19.yy",
+    "name": "sDead",
+    "path": "sprites/sDead/sDead.yy",
   },
   "spriteMaskId": null,
   "visible": true,

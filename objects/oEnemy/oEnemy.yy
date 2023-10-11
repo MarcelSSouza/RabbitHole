@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite2",
-    "path": "sprites/Sprite2/Sprite2.yy",
+    "name": "sSpike",
+    "path": "sprites/sSpike/sSpike.yy",
   },
   "spriteMaskId": null,
   "visible": true,

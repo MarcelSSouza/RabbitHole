@@ -2,7 +2,8 @@
 vel = 3;
 movimento = 0;
 
-if (global.enemytodestroy == 0 and instance_number(oCoin)==0 and instance_number(oChefe)==0){room_goto_next()
+if (instance_number(oEnemyGun)==0 and instance_number(oCoin)==0 and instance_number(oChefe)==0){
+	room_goto_next()
 	audio_stop_all()
 	}
 direction= point_direction(x,y,oPlayer.x,oPlayer.y)
