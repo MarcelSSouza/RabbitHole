@@ -1,6 +1,15 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-instance_create_depth(0,0,-9999, oFade)
+
+image_xscale *= 100
+image_yscale *=100
+fadeSpeed= 0.05
+image_alpha=1
 
 
-room_goto_next()
+
+
+
+
+
+

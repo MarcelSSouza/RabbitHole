@@ -7,7 +7,7 @@
   "option_operagx_game_name": "RabbitHoleTitulion",
   "option_operagx_guid": "32efc316-f43d-41d5-b53f-64fd147fcb45",
   "option_operagx_internalShareUrl": "https://gx.games/games/ew0a0h/rabbitholetitulion/tracks/831842f2-592d-4a13-bd27-6bc78eb634f0/",
-  "option_operagx_interpolate_pixels": true,
+  "option_operagx_interpolate_pixels": false,
   "option_operagx_mod_editUrl": "",
   "option_operagx_mod_game_name": "RabbitHole",
   "option_operagx_mod_guid": "",
