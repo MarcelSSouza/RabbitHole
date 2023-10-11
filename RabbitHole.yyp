@@ -53,7 +53,6 @@
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
     {"id":{"name":"sDead","path":"sprites/sDead/sDead.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
-    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
     {"id":{"name":"RoomControls","path":"rooms/RoomControls/RoomControls.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"oButtonStart","path":"objects/oButtonStart/oButtonStart.yy",},},

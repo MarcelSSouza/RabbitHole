@@ -1,7 +1,6 @@
 // Step Event of your player object
 vel = 3;
 movimento = 0;
-show_debug_message(global.enemytodestroy)
 
 if (global.enemytodestroy == 0 and instance_number(oCoin)==0 and instance_number(oChefe)==0){room_goto_next()
 	audio_stop_all()
