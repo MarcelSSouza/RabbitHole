@@ -3,32 +3,28 @@ vel = 3;
 movimento = 0;
 show_debug_message(global.enemytodestroy)
 
-if (global.enemytodestroy == 0 and instance_number(oCoin)==0){room_goto_next()
+if (global.enemytodestroy == 0 and instance_number(oCoin)==0 and instance_number(oChefe)==0){room_goto_next()
 	audio_stop_all()
 	}
 direction= point_direction(x,y,oPlayer.x,oPlayer.y)
 // Define the boundaries of the room
-leftBoundary = 0;
-rightBoundary = room_width;
-topBoundary = 0;
-bottomBoundary = room_height;
 
-if (keyboard_check(vk_right) && x + vel < rightBoundary) {
+if (keyboard_check(vk_right)) {
     x += vel;
     movimento = 2;
 }
 
-if (keyboard_check(vk_left) && x - vel > leftBoundary) {
+if (keyboard_check(vk_left) ) {
     x -= vel;
     movimento = 1;
 }
 
-if (keyboard_check(vk_up) && y - vel > topBoundary) {
+if (keyboard_check(vk_up)) {
     y -= vel;
     movimento = 3;
 }
 
-if (keyboard_check(vk_down) && y + vel < bottomBoundary) {
+if (keyboard_check(vk_down)) {
     y += vel;
     movimento = 4;
 }
@@ -40,22 +36,22 @@ if (!keyboard_check(vk_anykey)) {
 
 
 
-if (gamepad_button_check(0,gp_padr) && x + vel < rightBoundary) {
+if (gamepad_button_check(0,gp_padr)) {
     x += vel;
     movimento = 2;
 }
 
-if (gamepad_button_check(0,gp_padl) && x - vel > leftBoundary) {
+if (gamepad_button_check(0,gp_padl) ) {
     x -= vel;
     movimento = 1;
 }
 
-if (gamepad_button_check(0,gp_padu) && y - vel > topBoundary) {
+if (gamepad_button_check(0,gp_padu) ) {
     y -= vel;
     movimento = 3;
 }
 
-if (gamepad_button_check(0,gp_padd) && y + vel < bottomBoundary) {
+if (gamepad_button_check(0,gp_padd) ) {
     y += vel;
     movimento = 4;
 	

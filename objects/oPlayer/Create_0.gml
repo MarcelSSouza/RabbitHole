@@ -12,5 +12,4 @@ audio_play_sound(MainSong,0, false)
 alarm[0] = 1800
 global.enemytodestroy= instance_number(oEnemyGun)
 
-
 coins= instance_number(oCoin)

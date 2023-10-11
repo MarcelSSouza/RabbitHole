@@ -5,4 +5,5 @@ countdown_time -= 1;
 if (countdown_time <= 0) {
     // Perform actions when the timer reaches zero
     // For example, end the game or trigger an event
+	game_restart()
 }
