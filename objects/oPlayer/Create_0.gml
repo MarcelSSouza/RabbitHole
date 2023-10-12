@@ -11,5 +11,6 @@ sprites[4] = sFront
 audio_play_sound(MainSong,0, false)
 alarm[0] = 1800
 global.enemytodestroy= instance_number(oEnemyGun)
+sprite_index=0
 
 coins= instance_number(oCoin)

@@ -35,6 +35,7 @@
     {"name":"sDead","order":14,"path":"sprites/sDead/sDead.yy",},
     {"name":"sSpike","order":21,"path":"sprites/sSpike/sSpike.yy",},
     {"name":"oEnemy","order":1,"path":"objects/oEnemy/oEnemy.yy",},
+    {"name":"sHeart","order":22,"path":"sprites/sHeart/sHeart.yy",},
     {"name":"RoomControls","order":25,"path":"rooms/RoomControls/RoomControls.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
     {"name":"oButtonStart","order":5,"path":"objects/oButtonStart/oButtonStart.yy",},

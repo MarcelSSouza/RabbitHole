@@ -17,11 +17,11 @@
   "option_operagx_mod_team_id": "",
   "option_operagx_mod_team_name": "",
   "option_operagx_mod_version": "1.0.0.0",
-  "option_operagx_next_version": "1.0.0.4",
+  "option_operagx_next_version": "1.0.0.6",
   "option_operagx_publicShareUrl": "https://gx.games/games/ew0a0h/rabbitholetitulion/",
   "option_operagx_scale": 0,
   "option_operagx_team_id": "e5f86987-4a4c-483b-aa0f-3de4a5d23495",
   "option_operagx_team_name": "Titulion studio",
   "option_operagx_texture_page": "2048x2048",
-  "option_operagx_version": "1.0.0.3",
+  "option_operagx_version": "1.0.0.5",
 }
