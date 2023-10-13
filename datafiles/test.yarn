@@ -1,0 +1,28 @@
+#__PrivCrochet_version:1
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 528,243
+__PrivCrochet_tags: 
+title: Start
+---
+<<bg(0)>>
+Rabbit: Hey, I have been waiting for you. We are in trouble and you are the only one that can help us.
+    -> How can I help?
+        Rabbit: Just follow me and pass the next 10 levels. After this I can explain better.
+        <<jump Option A>>
+    -> Who are you?
+        Rabbit: I am you, but from the future.
+        <<jump Option A>>
+    -> Where am I?
+        Rabbit: This is the Rabbit Land, after the last invasion from Mr. Hamster
+        <<jump Option A>>
+    -> OK
+===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 800,46
+__PrivCrochet_tags: 
+title: Option A
+---
+<<bg(1)>>
+    Rabbit: Lets go then...
+    <<jump Start>>
+===
