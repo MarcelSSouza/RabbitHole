@@ -1,10 +1,5 @@
 {
   "FolderOrderSettings": [
-    {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
-    {"name":"Objetos","order":2,"path":"folders/Objetos.yy",},
-    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
-    {"name":"Sounds","order":5,"path":"folders/Sounds.yy",},
-    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Chatterbox","order":8,"path":"folders/Chatterbox.yy",},
     {"name":"(System) (Don't look in here)","order":1,"path":"folders/Chatterbox/(System) (Don't look in here).yy",},
     {"name":"omg i can't believe you looked in here","order":1,"path":"folders/Chatterbox/(System) (Don't look in here)/omg i can't believe you looked in here.yy",},
@@ -15,6 +10,11 @@
     {"name":"Option Getters","order":6,"path":"folders/Chatterbox/Option Getters.yy",},
     {"name":"Setup","order":7,"path":"folders/Chatterbox/Setup.yy",},
     {"name":"Variables and Constants","order":8,"path":"folders/Chatterbox/Variables and Constants.yy",},
+    {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
+    {"name":"Objetos","order":2,"path":"folders/Objetos.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Sounds","order":5,"path":"folders/Sounds.yy",},
+    {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oWall","order":12,"path":"objects/oWall/oWall.yy",},

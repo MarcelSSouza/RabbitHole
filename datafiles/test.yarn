@@ -5,16 +5,20 @@ __PrivCrochet_tags:
 title: Start
 ---
 <<bg(0)>>
-Rabbit: Hey, I have been waiting for you. We are in trouble and you are the only one that can help us.
+Rabbit from the Past: Startled, you find yourself in a lush meadow. A mysterious rabbit approaches you and says, "Hey, I've been waiting for you. We're in dire straits, and you're the only one who can help."
+
     -> How can I help?
-        Rabbit: Just follow me and pass the next 10 levels. After this I can explain better.
+        Rabbit from the Past: Just follow me and conquer the next 10 challenges. Afterward, I can explain everything.
         <<jump Option A>>
+
     -> Who are you?
-        Rabbit: I am you, but from the future.
+        Rabbit from the Past: I am you, but from the past.
         <<jump Option A>>
+
     -> Where am I?
-        Rabbit: This is the Rabbit Land, after the last invasion from Mr. Hamster
+        Rabbit from the Past: This is the Rabbit Land, after the devastating alien invasion led by Mr. Hamster.
         <<jump Option A>>
+
     -> OK
 ===
 __PrivCrochet_colorID: 0
@@ -23,6 +27,42 @@ __PrivCrochet_tags:
 title: Option A
 ---
 <<bg(1)>>
-    Rabbit: Lets go then...
-    <<jump Start>>
+Rabbit from the Past: Let's go then...
+
+    -> Can you tell me more about Mr. Hamster?
+        Rabbit from the Past: Mr. Hamster is a powerful, evil hamster who seeks to conquer Rabbit Land. He's allied with the alien invaders, and we need to stop him.
+        <<jump Option B>>
+
+    -> Why am I the only one who can help?
+        Rabbit from the Past: You possess a unique power that's crucial in our fight against Mr. Hamster and the aliens. It's a secret I'll reveal once we complete the challenges.
+        <<jump Option B>>
+
+    -> Tell me about these challenges.
+        Rabbit from the Past: The challenges are trials designed to test your skills and prepare you for the final battle. They won't be easy, but together, we can overcome them.
+        <<jump Option B>>
 ===
+__PrivCrochet_colorID: 0
+__PrivCrochet_position: 800,46
+__PrivCrochet_tags: 
+title: Option B
+---
+<<bg(0)>>
+Rabbit from the Future: You agree to follow your past self through the meadow.
+
+    -> Why do you need my help?
+        Rabbit from the Future: The alien invaders have returned, and they're even more powerful. We need your unique abilities to defeat them and prevent a catastrophe.
+        <<jump Option B>>
+
+    -> Tell me more about my abilities.
+        Rabbit from the Future: Your abilities are the key to our victory. I'll reveal their nature after you complete the challenges. We can't risk Mr. Hamster finding out.
+        <<jump Option B>>
+
+    -> Where are the other rabbits?
+        Rabbit from the Future: Many of our kind have fallen in the previous invasion. The survivors are scattered, but they're counting on us to save Rabbit Land.
+        <<jump Option B>>
+
+    -> I have questions about the past.
+        Rabbit from the Future: We can't dwell on the past right now. The future of Rabbit Land depends on our actions.
+        <<jump Option B>>
+    -> OK
+

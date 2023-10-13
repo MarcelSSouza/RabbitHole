@@ -19,7 +19,7 @@ if IsChatterbox(chatterbox) and text != undefined
 	draw_rectangle_center(room_width / 2, _yy, room_width, _margin_text, false, c_black, 0.5);
 	
 	draw_set_halign(_me ? fa_left : fa_right);
-	var _xx =  room_width - _margin_text;
+	var _xx =  room_width*2;
 	draw_text(_xx, _yy, text);
 	
 	//If there are options, draw them to the center of the screen

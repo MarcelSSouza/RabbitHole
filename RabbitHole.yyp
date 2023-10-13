@@ -12,11 +12,6 @@
   "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cenas","folderPath":"folders/Cenas.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objetos","folderPath":"folders/Objetos.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Chatterbox","folderPath":"folders/Chatterbox.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"(System) (Don't look in here)","folderPath":"folders/Chatterbox/(System) (Don't look in here).yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"omg i can't believe you looked in here","folderPath":"folders/Chatterbox/(System) (Don't look in here)/omg i can't believe you looked in here.yy",},
@@ -27,6 +22,11 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Option Getters","folderPath":"folders/Chatterbox/Option Getters.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Setup","folderPath":"folders/Chatterbox/Setup.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Variables and Constants","folderPath":"folders/Chatterbox/Variables and Constants.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objetos","folderPath":"folders/Objetos.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"test.yarn","CopyToMask":-1,"filePath":"datafiles",},
